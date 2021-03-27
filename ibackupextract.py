@@ -3,7 +3,6 @@ import os
 import argparse
 import plistlib
 import shutil
-import hashlib
 import sqlite3
 
 # Globals
