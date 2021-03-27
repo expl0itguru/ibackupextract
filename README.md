@@ -1,7 +1,8 @@
 # ibackupextract
-Cross-platform utility to extract iOS backups
+Cross-platform utility to extract iOS backups.
 
 # Usage
+```console
 $ python3 ibackupextract.py -h
 usage: ibackupextract.py [-h] -s SRC [-d DST] [-v] [-i]
 
@@ -13,13 +14,16 @@ optional arguments:
 
 required arguments:
   -s SRC, --src SRC  folder containing Manifest.db
+```
 
 # Dependencies
-* pip install argparse
+* `pip install argparse`
 
 # Quick Start
-\# Create a backup of a connected iOS device
+```console
+# Create a backup of a connected iOS device
 $ idevicebackup2 backup --full ./backup
 
-\# Invoke the script to extract the files
+# Invoke the script to extract the files
 $ python3 ibackupextract.py -s backup -d extract
+```
