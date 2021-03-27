@@ -2,7 +2,7 @@
 Cross-platform utility to extract iOS backups.
 
 # Usage
-```console
+```shell
 $ python3 ibackupextract.py -h
 usage: ibackupextract.py [-h] -s SRC [-d DST] [-v] [-i]
 
@@ -20,7 +20,7 @@ required arguments:
 * `pip install argparse`
 
 # Quick Start
-```console
+```shell
 # Create a backup of a connected iOS device
 $ idevicebackup2 backup --full ./backup
 
